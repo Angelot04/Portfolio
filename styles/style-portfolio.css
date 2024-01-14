@@ -1,0 +1,120 @@
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+nav .profile img {
+    width: 60px;
+    height: 70px;
+    border-radius: 50px;
+}
+nav .profile h1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+nav ul li:hover {
+    border-bottom-color: #1d4bc9;
+}
+
+.page-content {
+    margin: 4%;
+}
+.page-content header {
+    margin-top: 6%;
+    max-width: 84%;
+}
+.page-content header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8vw;
+}
+.page-content header p {
+    line-height: 20px;
+    color: black;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+.project h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.project p {
+    color: #555;
+}
+
+.project a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
